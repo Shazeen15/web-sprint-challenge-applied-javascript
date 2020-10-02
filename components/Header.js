@@ -20,6 +20,10 @@ function Header() {
     const h1 = document.createElement('h1');
     const spanTemp = document.createElement('span');
 
+    header.classList.add('header');
+    spanDate.classList.add('date');
+    spanTemp.classList.add('temp');
+
     header.appendChild(spanDate);
     header.appendChild(h1);
     header.appendChild(spanTemp);
